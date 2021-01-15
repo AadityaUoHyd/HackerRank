@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-public class My_HashSet_Implementation {
+public class Ch07My_HashSet_Implementation {
 	
 	//private final int MAX_VALUE = 1000000;
 	private final int ARRAY_SIZE = 100;
