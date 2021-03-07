@@ -6,7 +6,7 @@
 *
 */
 
-public class Capitalisation{
+public class Ch11Capitalisation{
 
      public static void main(String []args){
          
