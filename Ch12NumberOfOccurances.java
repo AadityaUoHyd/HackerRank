@@ -1,4 +1,25 @@
-//Number of occurance of letters in given String.
+/*
+
+Number of occurance of letters in given String.
+
+Input : Aaditya Bachchu Chatterjee
+
+Output : 
+
+a 5
+d 1
+i 1
+t 3
+y 1
+b 1
+c 3
+h 3
+u 1
+e 3
+r 1
+j 1
+
+*/
 
 import java.util.*;
 
@@ -6,12 +27,12 @@ public class Ch12NumberOfOccurances{
 
      public static void main(String []args){
          
-         String givenStr = "Aaditya";
+         String givenStr = "Aaditya Bachchu Chatterjee";
          
-         char charArr[] = givenStr.toCharArray();
+         char charArr[] = givenStr.toLowerCase().replaceAll("\\s", "").toCharArray();
          int size = charArr.length;
          
-         Map<Character, Integer> map = new HashMap<>();
+         Map<Character, Integer> map = new LinkedHashMap<>();
          
          int i=0;
          
