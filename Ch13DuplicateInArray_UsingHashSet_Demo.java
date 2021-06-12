@@ -1,7 +1,7 @@
 // Write a program in Java to find duplicates in array using HashSet. Say, input array is : {3,10,14,12,2,46,2,11,12,10,35,1,2}.
 
 import java.util.*;
-public class Ch13DuplicateInArrayDemo {
+public class Ch13DuplicateInArray_UsingHashSet_Demo.java {
 
      public static void main(String []args){
          
