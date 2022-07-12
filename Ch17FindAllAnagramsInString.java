@@ -52,7 +52,7 @@ public class Ch17FindAllAnagramsInString{
     }
 
      public static void main(String []args){
-        FindAllAnagramsInString f = new FindAllAnagramsInString();
+        Ch17FindAllAnagramsInString f = new Ch17FindAllAnagramsInString();
         System.out.println(f.findAllAnagrams("cbaebabacd", "abc"));
         System.out.println(f.findAllAnagrams("abab", "ab"));
      }
