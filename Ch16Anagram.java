@@ -3,7 +3,7 @@
 
 import java.util.Arrays;
 
-public class Anagram{
+public class Ch16Anagram{
     
     public static void main(String[] args){
         
