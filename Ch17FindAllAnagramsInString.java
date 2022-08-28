@@ -6,7 +6,7 @@
   Example Input:-         s: "cbaebabacd"            p:"abc"
   Output : [0,6]
 
-  Explaination : The substring with start index 0 is 'cba' is anagram of p. The substring with start index 6 is 'bac' is anagram of p too.
+  Explaination: The substring with start index 0 is 'cba' is anagram of p. The substring with start index 6 is 'bac' is anagram of p too.
 
   Example Input:-         s: "abab"                  p:"ab"
   Output : [0,1,2]
