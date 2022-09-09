@@ -22,7 +22,7 @@ public class Ch19ReadMobileNoFromGivenFile {
 		PrintWriter pw = new PrintWriter("C:\\Users\\abcha\\OneDrive\\Documents\\output.txt");  //provide your own path.
 
 		// Regular expression for mobile number.
-		Pattern pt = Pattern.compile("(0/91)?[7-9][0-9]{9}");
+		Pattern pt = Pattern.compile("(0|91)?[7-9][0-9]{9}");
 
 		// BufferedReader for reading from input file.
 		BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\abcha\\OneDrive\\Documents\\taj.txt")); //provide your own path & text file.
